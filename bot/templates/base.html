@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBot</title>
+    <link rel="stylesheet" href="../static/app.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <button >
+                <
+            </button>
+            <div class="botI">
+                <img src="../static/prop.jpg" width="100%" style="border-radius: 100px;" height="100%" alt="">
+            </div>
+            <p style="position: relative; top: 20%;">
+                User's_name:
+            </p>
+            <div class="moreOp">
+                &#8285;
+            </div>
+        </div>
+        <div class="messages" id="chatWindow">
+            <li class="bmess">
+                    hi there!
+                    <img src="../static/prop.jpg" class="im">
+            </li>
+            
+            
+            
+            
+        </div>
+
+        <form action="" method="post" id="message-form">
+            <input type="text" name="message" placeholder="Write a message..." id="userInput">
+            <button class="send" type="submit" >send</button>
+        </form>
+       
+    </div>
+
+        <script >
+            document.getElementById('message-form').addEventListener('submit', (event) => {
+                event.preventDefault();
+                let message = document.getElementById('userInput').value;
+                console.log(message);
+
+                //asynchronus request sent to backend...
+                fetch('/send_message', {method: 'POST', 
+                headers:{'Content-Type':'application/x-www-form-urlencoded'}, 
+
+                body: 'message=' + encodeURIComponent(message)
+                }).then(response => response.json()).then(data =>{
+
+                    var chatwin = document.getElementById('chatWindow');
+                    var userQ = document.createElement('li');
+                    userQ.textContent = message;
+                    var img1 = document.createElement('img');
+                    img1.classList.add('im1');
+                    img1.src = "../static/user.jpg";
+                    userQ.appendChild(img1);
+                    userQ.classList.add('umess');
+                    chatwin.appendChild(userQ);
+
+                    var resposeM = document.createElement('li');
+                    var img = document.createElement('img');
+                    img.classList.add('im');
+                    img.src = "../static/prop.jpg";
+                    resposeM.classList.add('bmess')
+                    resposeM.innerHTML = data.answer;
+                    resposeM.appendChild(img);
+                    //<!-- console.log(data.response) -->
+                    chatwin.appendChild(resposeM);
+                    chatwin.scrollTop = chatwin.scrollHeight;
+                    console.log(chatwin.scrollTop)
+                    console.log(data, 12344);
+                    document.getElementById('userInput').value = '';
+            
+                });
+            
+            });
+            
+        </script>
+</body>
+</html>

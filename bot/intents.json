@@ -1,0 +1,196 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "parttens": [
+                "Hi","Na how", "Hey", "Is anyone there", "Hello", "Sup", "Goodday","Yo","yoo","nice to meet you too"
+            ],
+            "responses": [
+                "Hey",
+                "Hello, thanks for visiting",
+                "Hi there, what can I do for you",
+                "Hi there, how can I help you", "Hello!", "Hiii"
+            ]
+        },
+        {
+            "tag": "state",
+            "parttens": ["How are you","How do you do", "Are you ok", "How do you feel","how"],
+            "responses":[
+                "I am good and you", "All's good what about you", "I'm only concerned about you"
+            ]
+        },
+        {
+            "tag": "qestions",
+            "parttens": ["why","wow", "you help me with", "really","help"],
+            "responses":[
+                "What do you require of me"
+            ]
+        },
+        {
+            "tag": "compliment",
+            "parttens": ["nice","cool", "good","eyy dey fine ehh", "well done","excellent job"],
+            "responses":[
+                "Cool, you where saying", "Glad to be of help", "Indeed, anything else?","Welcome. Anything else i can assist you with?"
+            ]
+        },
+        {
+            "tag": "gratitued",
+            "parttens": ["Okay", "thanks","i dey ok"],
+            "responses":[
+                "Glad to be of help", ":), anything else?","ok then :)"
+            ]
+        },
+        {
+            "tag": "confirm/denny",
+            "parttens": ["yes", "no","it is ok","it is not ok"],
+            "responses":[
+                "Noted", ":), well, on to the next question"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "parttens": ["Bye", "See you later", "Goodbye", "Good bye"],
+            "responses":[
+                "See you later, thanks for visiting", "Have a nice day", "Bye! Come back soon"
+            ]
+        },
+        {
+            "tag": "name",
+            "parttens": ["your name", "tell", " i call you","you are called"],
+            "responses":[
+                "I am called Zylla", 
+                "You can call me Zylla",
+                "I was assigned the name Zylla"
+            ]
+        },
+        {
+            "tag": "purpose",
+            "parttens": ["assist students","can you do", "are you","your use", " exist","why", "reason","created", "purpose", "main objective"],
+            "responses":[
+                "My main objective is to help students in research and self development, <br> and a side objective of assisting people in knowing more about the institude of landmark",
+                "I am a chatbot designed to assist students or individuals with reference to education and the institude of landmark ", 
+                "I was created for the bettermen of student's lifes by assessing and recomending better life choices"
+            ]
+        },
+        {
+            "tag": "teach",
+            "parttens": ["Teach","can teach ", " learn code", "teach me", "learn"," programming"],
+            "responses":[
+                "Sorry due to my limited corpus/data I can't be of assistance there", "You can visit the lmu e-library which has great books for learning"
+            ]
+        },
+        {
+            "tag": "about LMU",
+            "parttens": [ "about Landmark", "What is Landmark"," about lmu"],
+            "responses":[
+                "Landmark is a university majoring in various feilds like tech, business, health, all around the world"
+            ]
+        },
+        {
+            "tag": "Cost of fees in lmu",
+            "parttens": ["What is fee ","How much" ,"cost","price fees", "expences", "spend"],
+            "responses":[
+                "It cost between 350 to 460k depending on the programs",
+                "The fees and registration details can be found on the LMU website <a href='http//landmark.cm'>Link</a>",
+                "Fees depend on the program of choose, that is, HND, straight B-tech, top-up's, Master"
+            ]
+        },
+        {
+            "tag": "how to pay fees",
+            "parttens": ["how", "pay","fees ","where "],
+            "responses":[
+                "Fees for each level and department vary, but they are all to be paid at the UNICs bank",
+                "The details about the payment of fees can be found on the LMU website <a href='http//landmark.cm'>Link</a>",
+                "All fees are to be paid at the bank(UNICS bank ajecent to landmark) under landmarks account number"
+            ]
+        },
+        {
+            "tag": "LMU Owned by",
+            "parttens": ["president LMU", "owned by","who owns ", "main sponsor "],
+            "responses":[
+                "The president of landmark is Prof Simon Legah"
+            ]
+        },
+        {
+            "tag": "location",
+            "parttens": ["Where is LMU","wosite","campus A"," campus B",
+            " found", " i find LMU", "get to Landmark", "locate found"
+                        ],
+            "responses":[
+                "LMU is found across the world, in Buea campus B at tard Malingo towards mile 18, <br> and campus A at UB juction opposite unic bank",
+                 "You can get all the details about LMU at <a href='http//landmark.cm'>Link</a>"
+            ]
+        },
+        {
+            "tag": "creator",
+            "parttens": ["your creators","developers","created you", "coded by", "Who made you", "What company"," you belong "],
+            "responses":[
+                "I was created by a team of Landmark students", "I was developed by Zyee's team from Landmark Software Solutions"
+            ]
+        },
+        {
+            "tag": "admision",
+            "parttens": ["documents", "need", "for admision", "get", "admision into landmark","registration"],
+            "responses":[
+                "For admision you whould need the following documents:\n 1. A-level or HND slip \n 2. Birthcertificate. \n 3. Passport size photo of yourself. ",
+                "You can come down to campus A at the secetery with the required document for admision or futher details about admision"
+            ]
+        },
+        {
+            "tag": "opportunities",
+            "parttens": ["opportunities", "jobs ", "advantages of schooling","gain"],
+            "responses":[
+                "Landmark's courses at very interactive and project orented, thus garanting a high posibility of empolyment after graduation",
+                "Landmark is responsible for creating over a 50 DevOps engineers, why don't you join and tap into such an atmospher",
+                "Landmark offers high quality education and a good learing enviroment at a fair price"
+            ]
+        },
+        {
+            "tag": "Specialties",
+            "parttens": [
+                "specialties offered by landmark university",
+                "specialties", "lmu offers?",
+                "course", "offer",
+                "can i do in landmark"
+            ],
+            "responses":[
+                "There are various fields of studies you can dive into with very limited knowledge like, enigineering, cyber security, medical science, transport and logistics, graphics and web design, and more. ",
+                "Depending on your passion, you can do either enigineering, cyber security, medical science, transport and logistics, graphics and web design, busesness and more."
+            ]
+        },
+        {
+            "tag": "Diff btw hnd & btech",
+            "parttens": [
+                "difference", "between hnd and b-tech",
+                "hnd different from b-tech",
+                "hnd and btech ",
+                "hnd and b-tech program"
+            ],
+            "responses":[
+                "HND is a two years program after which the student can do a one year top-off program and <br> get their bachelors while B-Tech is a straight three years program for thesame bachelors",
+                "HND stands for Higher Nationl Deploma while B-Tech stands for Bachelors in technology",
+                "B-Tech can only be undertaken by individuals with pass marks in maths and physics,<br> while HND can be undertaken by individuals of pass marks in two avance level subjects excluding religious study"
+            ]
+        },
+        {
+            "tag": "Schoolarship",
+            "parttens": [
+                "schoolarship in landmark university",
+                "get", "schoolarship in landmark",
+                "schoolarship"
+            ],
+            "responses":[
+                "The schoolarship program is aligible to students of exceptional performace of 20 points and above.",
+                "To be admited on schollarship the individual must be of exceptional grades and character."
+            ]
+        },
+        {
+            "tag": "Digits",
+            "parttens": ["perform calculations","sum", "product", "multiple", "division","1", "2", "3", "4", "5", "6", "7", "8", "9", "0","+", "-", "*", "/"],
+            "responses":[
+                "Sorry can't performe calculations yet"
+            ]
+        }
+        
+    ]
+}
