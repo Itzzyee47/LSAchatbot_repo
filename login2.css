@@ -1,0 +1,189 @@
+
+
+.body{
+    font-family: sans ;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    margin: 8px;
+}
+
+.main_container{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    box-shadow: 3px 4px 5px 5px gray;
+
+    
+}
+
+.form{
+    background-color: lightgray;
+    width: 50vw;
+    height: 100vh;
+}
+
+.formate2{
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 100px;
+}
+
+.formate{
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    padding-top: 100px;
+    
+}
+.second{
+    /*padding: 100px;*/
+    display: grid;
+    background-color: rgb(181, 110, 242);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.p_tag, .p_tag2{
+    color: white;
+    margin:0;
+    padding:0;
+}
+.first1{
+    height: 50px;
+    padding-top: 30px;
+}
+.second2{
+    padding-top: 30px;
+}
+
+.second1{
+    padding-top: 30px;
+}
+
+
+.remember{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    padding-top: 10px;
+}
+.btn{
+    border-radius: 30px;
+    width:6vw;
+    height: 6vh;
+}
+
+.btn2{
+    border-radius: 30px;
+    width:6vw;
+    height: 6vh;
+}
+
+.btn:hover{
+    color: white;
+    box-shadow:2px 2px 3px 2px white;
+}
+.btn2:hover{
+    color: white;
+    box-shadow:2px 2px 3px 2px white;
+}
+.login{
+    display: grid;
+    padding-top: 12px;
+    /* grid-template-columns:repeat(2, 1fr); */
+}
+.container2{
+    display: block;
+    justify-content: center;
+    align-content: center;
+}
+
+.cancel{
+    border-radius: 30px;
+    padding: 6px
+}
+/* .container{
+    width: 300px;
+} */
+.size{
+    width: 16vw;
+    height: 6vh;
+    border: none;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+}
+.rem{
+    padding-right: 200px;
+}
+.psw{
+    margin-right: 20px;
+}
+.p_tag{
+    font-size: 50px;
+}
+.p_tag2{
+    display: grid;
+    text-align: right;
+}
+.sec{
+    display: inline-block;
+}.main{
+    width: 100vw;
+    height: 95vh;
+    
+}
+
+.second3{
+    padding-top: 30px;
+}
+.btn{
+    background-color: rgb(181, 110, 242);
+    border: none;
+    box-shadow: 1px 1px 1px 1px gray;
+    position: static;
+
+}
+
+.btn2{
+    background-color: rgb(181, 110, 242);
+    border: none;
+    box-shadow: 1px 1px 1px 1px gray;
+
+}
+.btn:hover{
+    box-shadow: 2px 2px 1px 1px gray;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
+    display: grid;
+    align-self: center;
+    border-radius: 30px;
+}
+.chat{
+    color: rgb(181, 110, 242);
+}
+.head{
+    display:flex;
+    justify-content: center;
+    padding-bottom: 20px;
+
+}
+.new{
+    padding-top: 50px;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+.signup{
+    padding-top: 10px;
+    size-adjust: auto;
+}
